@@ -6,7 +6,8 @@ enable :sessions
 get '/' do
   name = session[:name]
   result = session[:result] || ""
-  erb :random_pair, locals:{result: result}
+  p "FIRST PAGE PARAMS IS #{params}"
+  erb :random_pair, locals:{result: result, name: name}
 end
 
 post '/pairs' do
@@ -15,6 +16,6 @@ post '/pairs' do
   p "HEY RIGHT HERE #{params}"
   session[:result] = result
   redirect '/'
-  erb :pairs, locals:{result: result}
+  erb :pairs, locals:{result: result, name: name}
 end
 
