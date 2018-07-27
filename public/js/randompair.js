@@ -6,3 +6,8 @@ function pushy() {
     var duh = document.getElementById("duh");
     duh.appendChild(x);
 }
+
+function pully(){
+    var gone = document.getElementById("duh");
+    gone.removeChild(gone.lastChild);
+}
