@@ -1,16 +1,22 @@
-<link rel="stylesheet" type="text/css" href="/random_pair.css">
+<link rel="stylesheet" type="text/css" href="/css/random_pair.css">
 
 <script src="/js/randompair.js"></script>
 
 <form method="post" action="/pairs">
 
     <div id="duh">
-
     </div>
-    <input type="submit" value="SUBMIT">
+    <div class="wut">
+        <input type="submit"value="SUBMIT">
+    </div>
 </form>
 
+<div class="answer">
 <%=result%>
+</div>
 
-<button onclick="pushy()">More Names</button>
-<button onclick="pully()">Less Names</button>
+<div class="btns">
+    <button onclick="pushy()">More Names</button>
+  
+    <button onclick="pully()">Less Names</button>
+</div>

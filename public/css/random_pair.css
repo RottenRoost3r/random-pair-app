@@ -1,0 +1,46 @@
+button{
+    margin-left: 15px;
+    width: 140px;
+    height: 140px;
+    font-size: 34px;
+    font-family: fantasy;
+    color: black;
+    background-color: red;
+    border-style: outset;
+    border-radius: 50%;
+    box-shadow: 1px 3px;  
+}
+
+.btns{
+    background-size: 493px;
+    background-repeat: no-repeat;
+    height: 167px;
+    width: 486px;
+    margin-left: 36%;
+    margin-top: 8%;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+
+body{
+    background-image: url(/images/randompears.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.answer{
+    font-family: sans-serif;
+    font-size: 22;
+    color: peachpuff;
+    text-align: center;
+}
+
